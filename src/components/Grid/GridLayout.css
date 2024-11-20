@@ -1,0 +1,26 @@
+.grid-container {
+    padding: 20px;
+    width: 80%;
+    margin: 50px auto;
+  }
+  
+  .grid-stack {
+    background: #f1f1f1;
+    
+  }
+  
+  .grid-stack-item-content {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: move;
+  }
+  
