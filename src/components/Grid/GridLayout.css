@@ -1,26 +1,50 @@
 .grid-container {
-    padding: 20px;
-    width: 80%;
-    margin: 50px auto;
-  }
-  
-  .grid-stack {
-    background: #f1f1f1;
-    
-  }
-  
-  .grid-stack-item-content {
-    background-color: #fff;
-    padding: 10px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    border: 2px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    cursor: move;
-  }
-  
+  padding: 20px;
+  width: 80%;
+  margin: 50px auto;
+}
+ 
+.grid-stack {
+  background: #f1f1f1;
+}
+ 
+.grid-stack-item-content {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  cursor: move;
+}
+.chart-container {
+  width: 100%;
+  height: 100%;
+}
+
+.pie-chart-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.bump-chart-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;            
+}
+
+.funnel-chart-container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+ 
